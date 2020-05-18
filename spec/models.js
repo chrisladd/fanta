@@ -4,7 +4,7 @@
  * 
  * @typedef {Object} Sprite
  *
- * @param {string} name the name of the image for this sprite, within the asset catalog
+ * @param {string} name the name of the image for this sprite, within the asset catalog. You may specify a comma-spearated list, in which case a random element will be used for `name`, and the entire array will be available to you within the `names` property.
  * @param {Edge} edge the edge to pin this sprite to
  * @param {Alignment} align the alignment for this sprite
  * @param {number} scale the scale for this sprite
@@ -12,6 +12,15 @@
  * @param {Insets} insets the insets to apply to this sprite
  */
 
+
+/**
+ *
+ * Insets are specified TOP, LEFT, BOTTOM, RIGHT
+ * 
+ * @typedef {String} Insets 
+ *
+ * 
+ */
 
 /**
  * @typedef {Enum} Edge
