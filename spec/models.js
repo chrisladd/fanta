@@ -32,6 +32,13 @@
 
 /**
  *
+ * Ranges may be supplied using the format `2.5..<98.6`
+ * 
+ * @typedef {String} Range
+ */
+
+/**
+ *
  * Insets are specified TOP, LEFT, BOTTOM, RIGHT
  * 
  * @typedef {String} Insets 

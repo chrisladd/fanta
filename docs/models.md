@@ -9,6 +9,9 @@
 <dt><a href="#Label">Label</a> : <code>Object</code></dt>
 <dd><p>Labels represent text on screen</p>
 </dd>
+<dt><a href="#Range">Range</a> : <code>String</code></dt>
+<dd><p>Ranges may be supplied using the format <code>2.5..&lt;98.6</code></p>
+</dd>
 <dt><a href="#Insets">Insets</a> : <code>String</code></dt>
 <dd><p>Insets are specified TOP, LEFT, BOTTOM, RIGHT</p>
 </dd>
@@ -51,6 +54,12 @@ Labels represent text on screen
 | insets | [<code>Insets</code>](#Insets) |  |
 | zPosition | <code>number</code> |  |
 
+<a name="Range"></a>
+
+## Range : <code>String</code>
+Ranges may be supplied using the format `2.5..<98.6`
+
+**Kind**: global typedef  
 <a name="Insets"></a>
 
 ## Insets : <code>String</code>
