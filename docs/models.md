@@ -4,7 +4,8 @@
 
 <dl>
 <dt><a href="#Sprite">Sprite</a> : <code>Object</code></dt>
-<dd></dd>
+<dd><p>Sprites have at a minimum a name. You can specify an entire object, or you may specify just a plain string, which will be interpreted as this sprite&#39;s name, leaving all other values to their defaults.</p>
+</dd>
 <dt><a href="#Edge">Edge</a> : <code>Enum</code></dt>
 <dd></dd>
 </dl>
@@ -12,6 +13,8 @@
 <a name="Sprite"></a>
 
 ## Sprite : <code>Object</code>
+Sprites have at a minimum a name. You can specify an entire object, or you may specify just a plain string, which will be interpreted as this sprite's name, leaving all other values to their defaults.
+
 **Kind**: global typedef  
 
 | Param | Type | Description |

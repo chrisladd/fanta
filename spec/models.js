@@ -1,5 +1,7 @@
 
 /**
+ * Sprites have at a minimum a name. You can specify an entire object, or you may specify just a plain string, which will be interpreted as this sprite's name, leaving all other values to their defaults.
+ * 
  * @typedef {Object} Sprite
  *
  * @param {string} name the name of the image for this sprite, within the asset catalog
