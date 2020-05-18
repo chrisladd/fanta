@@ -6,6 +6,9 @@
 <dt><a href="#Sprite">Sprite</a> : <code>Object</code></dt>
 <dd><p>Sprites have at a minimum a name. You can specify an entire object, or you may specify just a plain string, which will be interpreted as this sprite&#39;s name, leaving all other values to their defaults.</p>
 </dd>
+<dt><a href="#Label">Label</a> : <code>Object</code></dt>
+<dd><p>Labels represent text on screen</p>
+</dd>
 <dt><a href="#Insets">Insets</a> : <code>String</code></dt>
 <dd><p>Insets are specified TOP, LEFT, BOTTOM, RIGHT</p>
 </dd>
@@ -28,6 +31,25 @@ Sprites have at a minimum a name. You can specify an entire object, or you may s
 | scale | <code>number</code> | the scale for this sprite |
 | zPosition | <code>number</code> | the zPosition for this sprite |
 | insets | [<code>Insets</code>](#Insets) | the insets to apply to this sprite |
+
+<a name="Label"></a>
+
+## Label : <code>Object</code>
+Labels represent text on screen
+
+**Kind**: global typedef  
+
+| Param | Type | Description |
+| --- | --- | --- |
+| fontName | <code>string</code> | `Helvetica` by default |
+| fontSize | <code>number</code> | `18.0` by default |
+| fontColor | <code>string</code> | a hex or rgba color string. `ffffff` by default |
+| _font | <code>string</code> | you may specify font name, size, and color in a single comma-separated string. E.g. `CBSans, 24, ff0000`. You may also use this format as the entire label node, and the label will be parsed from there. |
+| text | <code>string</code> | an optional string to display |
+| the | [<code>Edge</code>](#Edge) | edge to align to. `middle` by default |
+| align: | <code>Alignment</code> | alignment for the label. `center` |
+| insets | [<code>Insets</code>](#Insets) |  |
+| zPosition | <code>number</code> |  |
 
 <a name="Insets"></a>
 

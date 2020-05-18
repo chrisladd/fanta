@@ -14,6 +14,23 @@
 
 
 /**
+ * Labels represent text on screen
+ *
+ * @typedef {Object} Label
+ *
+ * @param {string} fontName  `Helvetica` by default
+ * @param {number} fontSize  `18.0` by default
+ * @param {string} fontColor a hex or rgba color string. `ffffff` by default
+ * @param {string} _font    you may specify font name, size, and color in a single comma-separated string. E.g. `CBSans, 24, ff0000`. You may also use this format as the entire label node, and the label will be parsed from there.
+ * @param {string} text an optional string to display
+ * @param {Edge}   the edge to align to. `middle` by default
+ * @param {Alignment} align:  alignment for the label. `center`
+ * @param {Insets} insets 
+ * @param {number} zPosition
+ */
+
+
+/**
  *
  * Insets are specified TOP, LEFT, BOTTOM, RIGHT
  * 
