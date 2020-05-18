@@ -9,3 +9,14 @@
  * @param {number} zPosition the zPosition for this sprite
  * @param {Insets} insets the insets to apply to this sprite
  */
+
+
+/**
+ * @typedef {Enum} Edge
+ *
+ * @property {string} top 
+ * @property {string} topMiddle 
+ * @property {string} middle 
+ * @property {string} bottomMiddle 
+ * @property {string} bottom 
+ */
